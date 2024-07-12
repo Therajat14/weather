@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+
+body {
+    background-color: #222;
+}
+
+.card {
+    width: 90%;
+    max-width: 490px;
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    color: #dde2e1;
+
+}
+
+.searchBox {
+    width: 100;
+    ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchBox input {
+    border: none;
+    /*  STUDY THIS */
+    outline: none;
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #999;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    /*  STUDY THIS */
+    flex: 1;
+    margin: 16px;
+    font-size: 18px;
+    min-width: 30%;
+
+
+}
+
+.searchBox button {
+    border: none;
+    outline: none;
+    background: #000000d3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #272525);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #171616bc);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.searchBox img {
+    width: 16px;
+}
+
+.weathericon {
+    width: 170px;
+    margin-top: 30px;
+
+}
+
+.weather h1 {
+
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 20px;
+
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+}
+
+.col img {
+
+    width: 40px;
+    margin-right: 10px;
+
+}
+
+.humidity,
+.Wind {
+    font-size: 28px;
+    margin-top: -6px;
+
+
+
+}
+
+.weatherDescription {
+    margin-top: -20px;
+    font-style: oblique;
+    margin-bottom: 25px;
+}
+
+/* here gpt codes */
