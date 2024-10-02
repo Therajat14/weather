@@ -10,7 +10,7 @@ const searchBtn = document.querySelector(".searchBtn");
 const weatherImage = document.querySelector(".weathericon");
 const weatherDescription = document.querySelector(".weatherDescription");
 
-function getWeather(cityName = "new york", APIKey = "eab14b926e7a6ab0673a60686b699900") {
+function getWeather(cityName = "new york", APIKey = "") {
     const APIURL = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${APIKey}&units=metric`;
 
     console.log(searchBtn);
