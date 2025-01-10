@@ -1,6 +1,6 @@
 
 
-const APIKey = 'eab14b926e7a6ab0673a60686b699900';
+const APIKey = '';
 let cityName = "london";// document.querySelector("input");
 
 
